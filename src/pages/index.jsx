@@ -159,9 +159,9 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello, <br /> I'm Sebastian Martorell.
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>I'm an Argentinean Webdev creating digital experiences for clients from the US up to Norway.</Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -175,32 +175,39 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
+              title="pixelshive"
+              link="https://art.pixelshive.com/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              I had to mantein this project, along developing some new features.
             </ProjectCard>
             <ProjectCard
-              title="Harry Potter"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
+              title="captureandship"
+              link="http://captureandship.com"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              I entered the DOCMA 2017 award with this Harry Potter inspired image.
+              My very first QA and functional experience. I had to debug UI and take functional requirement from the clients.
             </ProjectCard>
             <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+              title="Moka"
+              link="https://www.moka.tv"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+              I had to re-style the agency web-page focusing on smooth scrolling animations.
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              title="todocargas"
+              link="https://todocargas.com"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              A wordpress template customization for a local truck company
+            </ProjectCard>
+            <ProjectCard
+              title="integrar"
+              link="https://integrar.com"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            >
+              A ground up markup project with wordpress cms for content.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -253,16 +260,11 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              My personal goal is to improve everyday becoming a better version of myself. I’m always trying my best to help others.  
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            Its hard to know a person 
           </AboutDesc>
         </Inner>
       </Content>
